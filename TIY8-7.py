@@ -3,6 +3,7 @@ def make_album(artist_name, album_title, songs=None):
     if songs: album['songs'] = songs
     return album
 
+
 print(make_album("Ethan", "Python"))
 print(make_album("Hallie", "Java"))
 print(make_album("Amy", "C#"))
